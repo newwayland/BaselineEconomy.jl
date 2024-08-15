@@ -1,0 +1,13 @@
+name = "BaselineEconomy"
+uuid = "a8a077c6-bbb0-4d2d-bb70-2d3641e46e4c"
+authors = ["Neil Wilson <neil@aldur.co.uk> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
